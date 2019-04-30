@@ -36,27 +36,21 @@
       <option>Sagittarius</option>
       <option>Capricorn</option>
     </select>
-
-
-
-
     </div>
+
     <div class="col">
-  <div class="avatar"><img src="http://www.designshock.com/wp-content/uploads/2016/04/man-7-400.jpg" width="50%"/></div>
-  <div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text">Upload</span>
-  </div>
-  <div class="custom-file">
-    <input type="file" class="custom-file-input" id="inputGroupFile01">
-    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-  </div>
-</div>
-
-
-
+      <div class="avatar"><img src="http://www.designshock.com/wp-content/uploads/2016/04/man-7-400.jpg" width="30%"/></div>
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="inputGroupFile01">
+        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+      </div>
+      <div class="submit">
+        <button type="button" class="btn btn-outline-secondary">Submit</button>
+     </div>
     </div>
+
   </div>
+
 </div>
 
 
@@ -87,6 +81,10 @@
 }
 .input:focus {
   color: rgba(0,0,0,.9);
+}
+.submit{
+  margin-top: 2em;
+  margin-left: 20em;
 }
 
 </style>
