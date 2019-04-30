@@ -14,6 +14,7 @@
 				<button show={ user } class="btn btn-outline-danger my-2 my-sm-0" type="button" onclick={ logout }>Logout</button>
 	    </div>
     </div>
+		
 
   <script>
 		login() {
